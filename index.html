@@ -12,15 +12,16 @@
         }
 
         .title {
-          width: 100%;
+          width: 80%;
           display: flex;
           align-items: center;
           justify-content: center;
 
           padding: 10px 0;
+          margin: 0 auto;
         }
 
-        .title > h1 {
+        .title > h2 {
           width: 50%;
           padding: 5px;
           background-color: black;
@@ -61,7 +62,7 @@
             font-family: 'Roboto';
         }
 
-        .education > h1 {
+        .education > h2 {
           text-align: center;
           margin: 10px 0;
         }
@@ -77,20 +78,23 @@
         .education-table  > thead > tr > th {
           border: 2px solid black;
           padding: 5px;
+          
+          font-size: 1rem;
         }
 
         .education-table  > tbody > tr > td {
           border: 2px solid gray;
           text-align: center;
           padding: 10px;
+          font-size: 1rem;
         }
 
         .research {
-            margin: 290px 0 10px 0;
+            margin: 100px 0 10px 0;
             font-family: 'Roboto';
         }
 
-        .research > h1 {
+        .research > h2 {
           text-align: center;
           margin: 10px 0;
         }
@@ -100,17 +104,18 @@
             font-weight: bold;
             border-collapse: collapse;
             margin-top: 50px;
-            margin-bottom: 120px;
         }
 
         .research-table  > thead > tr > th {
           border: 2px solid black;
           padding: 5px;
+          font-size: 1rem;
         }
 
         .research-table  > tbody > tr > td {
           border: 2px solid gray;
           padding: 10px;
+          font-size: 1rem;
         }
 
         .poster {
@@ -118,7 +123,7 @@
             font-family: 'Roboto';
         }
 
-        .poster > h1 {
+        .poster > h2 {
           text-align: center;
           margin: 10px 0;
         }
@@ -138,8 +143,16 @@
           margin: 10px 0;
         }
 
-        .skills {}
-        .skills > h1 {
+        .list > li > h3 {
+          font-size: 1.2rem;
+          font-weight: bold;
+        }
+
+        .list > li > div >span {
+          font-size: 1rem;
+        }
+
+        .skills > h2 {
           text-align: center;
         }
 
@@ -162,12 +175,10 @@
         }
 
         .poster {
-            margin: 10px 0;
             font-family: 'Roboto';
         }
 
         .personal {
-          margin-bottom: 100px;
         }
 
         .setup {
@@ -230,7 +241,7 @@
 
         <div class="education">
           <div class="title">
-            <h1>EDUCATION</h1>
+            <h2>Education</h2>
           </div>
             <table class="education-table" style="font-size: 22px;">
                 <thead>
@@ -317,7 +328,7 @@
 
               <div class="poster" style="margin: 3rem 0 3rem 0;display : flex;align-items:center;justify-content:center; flex-direction:column;">
                 <div class="title" style="flex:1;">
-                  <h1>Experience</h1>
+                  <h2>Experience</h2>
                 </div>
       
                 <ul style="width: 100%;  margin: auto;">
@@ -345,9 +356,37 @@
                 </ul>
               </div>
 
+              <div class="skills">
+                <div class="title">
+                  <h2>Skills</h2>
+                </div>
+                <ul style="font-size: 22px;">
+                  <li>Leadership</li>
+                  <li>Team Work</li>
+                  <li>Basic Computer Knowledge</li>
+                </ul>
+              </div>
+
+              <div class="poster">
+                <div class="title">
+                  <h2>Intership</h2>
+                </div>
+      
+                <ul class="list">
+                  <li>
+                    <h3></h3>
+                    <div style="padding:5px 0px;">
+                      <span style="font-size: 22px;">
+                        I have completed my Internship in QC Microbiology lab at <i><u>Ambix Healthcare LLP,Gozaria.</u></i>
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
             <div class="research">
-              <div class="title">
-                <h1 style="width: 50%;">RESEARCH PAPER & BOOK CHAPTER</h1>
+              <div  class="title">
+                <h2 style="width: 100%;">Research Paper & Book Chapter</h2>
               </div>
               <table class="research-table" style="font-size: 22px;">
                   <thead>
@@ -499,11 +538,11 @@
 
         <div class="poster">
           <div class="title">
-            <h1 style="width: 80%;">POSTER PRESENTATION</h1>
+            <h2>Poster Presentation</h2>
           </div>
           
 
-          <ol class="list" style="font-size: 22px;">
+          <ol class="list">
             <li>
               <h3>Title: In silico approach to study ADMET properties and Docking interaction analysis of <i>Listeria monocytogenes</i>.</h3>
               <div style="padding:5px 0px;">
@@ -522,7 +561,7 @@
             </li>
 
             <li>
-              <h3>Title: Title: FTIR Characterization of methanolic extract of selected marine algae from Veraval coast</h3>
+              <h3>Title: FTIR Characterization of methanolic extract of selected marine algae from Veraval coast</h3>
               <div style="padding:5px 0px;">
                 <span>
                   Presented poster in NATIONAL CONFERENCE OF ADVANCE IN MODERN SCIENCE-2020(NCAMS-2020) jointly organized by OM Collage of Science,Junagadh& Department of Chemistry and Forensic Science, BKNMU on 18th January,2020.</span>
@@ -544,7 +583,7 @@
               </div>
             </li>
 
-            <li>
+            <li style="margin-top: 100px;">
               <h3>Title:An Appraisal on Antimicrobial Applicability of Marine Macroalgae</h3>
               <div style="padding:5px 0px;">
                 <span>
@@ -568,7 +607,7 @@
               </div>
             </li>
 
-            <li style="margin-top: 50px;">
+            <li>
               <h3>Title:Future of Bioinformatics : Artificial Intelligence</h3>
               <div style="padding:5px 0px;">
                 <span>
@@ -588,44 +627,16 @@
 
         </div>
 
-        <div class="skills">
-          <div class="title">
-            <h1>SKILLS</h1>
-          </div>
-          <ul style="font-size: 22px;">
-            <li>Leadership</li>
-            <li>Team Work</li>
-            <li>Basic Computer Knowledge</li>
-          </ul>
-        </div>
-
         <div class="poster">
           <div class="title">
-            <h1>Intership</h1>
+            <h2>Training Programme</h2>
           </div>
 
           <ul class="list">
             <li>
               <h3></h3>
               <div style="padding:5px 0px;">
-                <span style="font-size: 22px;">
-                  I have completed my Internship in QC Microbiology lab at <i><u>Ambix Healthcare LLP,Gozaria.</u></i>
-                </span>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="poster" style="margin-top: 100px;">
-          <div class="title">
-            <h1>Training Programme</h1>
-          </div>
-
-          <ul class="list">
-            <li>
-              <h3></h3>
-              <div style="padding:5px 0px;">
-                <span style="font-size: 22px;">
+                <span style="font-size: 18px;">
                   Completed CSIR-SUMMER RESEARCH AND TEAINING PROGRAM 2020 (ONLINE) With S Grade Organized by CSIR, India and Hosted by CSIR NEIST, Jorhat during June to August 2020.</span>
               </div>
             </li>
@@ -634,14 +645,14 @@
 
         <div class="poster">
           <div class="title">
-            <h1>Project</h1>
+            <h2>Project</h2>
           </div>
 
           <ul class="list">
             <li>
               <h3></h3>
               <div style="padding:5px 0px;">
-                <span style="font-size: 22px;">
+                <span style="font-size: 18px;">
                   I have received grant for the project as approved by University Level Under under SSIP (Student Startup and innovation policy) Committee,Sankalchand Patel University.
                 </span>
               </div>
@@ -651,10 +662,10 @@
 
         <div class="personal">
           <div class="title">
-            <h1>Personal Information</h1>
+            <h2>Personal Information</h2>
           </div>
           <div class="setup">
-            <ul class="my-info" style="font-size: 22px;">
+            <ul class="my-info" style="font-size: 18px;">
               <li >
                 <h4> • Father's Name :</h4><span> Narendrabhai Patel</span>
               </li>
@@ -673,16 +684,16 @@
 
         <div class="self_declaration">
           <div class="title">
-            <h1>Self-Declaration</h1>
+            <h2>Self-Declaration</h2>
           </div>
 
           <ul class="list">
             <li>
               <div style="padding:5px 0px;">
-                <span style="font-size: 22px;">
+                <span style="font-size: 18px;">
                   It is to be certified that the information furnished above are true and correct to the best of my knowledge and belief.
                 </span>
-                <h3 style="text-align:right;margin-top:10px;">
+                <h3 style="text-align:right;">
                   <i>Lensi Patel</i>
                 </h3>
               </div>
